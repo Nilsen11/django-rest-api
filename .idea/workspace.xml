@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349f5319-e3d3-4f7b-93bf-c84b6ce74d87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/tests/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/recipe/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +26,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
               <caret line="272" column="53" selection-start-line="272" selection-start-column="53" selection-end-line="272" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="102" column="52" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="102" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +138,6 @@
         <option value="$PROJECT_DIR$/app/user/urls.py" />
         <option value="$PROJECT_DIR$/app/user/views.py" />
         <option value="$PROJECT_DIR$/app/user/tests/test_user_api.py" />
-        <option value="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" />
-        <option value="$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py" />
         <option value="$PROJECT_DIR$/app/core/admin.py" />
         <option value="$PROJECT_DIR$/app/recipe/urls.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
@@ -131,6 +149,8 @@
         <option value="$PROJECT_DIR$/app/recipe/serializers.py" />
         <option value="$PROJECT_DIR$/app/recipe/views.py" />
         <option value="$PROJECT_DIR$/app/recipe/tests/test_recipe_api.py" />
+        <option value="$PROJECT_DIR$/app/recipe/tests/test_tags_api.py" />
+        <option value="$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py" />
       </list>
     </option>
   </component>
@@ -324,7 +344,7 @@
       <workItem from="1554226186192" duration="5515000" />
       <workItem from="1554233437342" duration="30000" />
       <workItem from="1554245129402" duration="2562000" />
-      <workItem from="1554500404485" duration="1293000" />
+      <workItem from="1554500404485" duration="1913000" />
     </task>
     <servers />
   </component>
@@ -346,7 +366,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46833000" />
+    <option name="totallyTimeSpent" value="47453000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -479,16 +499,6 @@
     <entry file="file://$PROJECT_DIR$/app/core/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/remote_sources/1863766003/1170049292/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -526,16 +536,6 @@
           <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -653,6 +653,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="272" column="53" selection-start-line="272" selection-start-column="53" selection-end-line="272" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_tags_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="102" column="52" lean-forward="true" selection-start-line="83" selection-start-column="4" selection-end-line="102" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/recipe/tests/test_ingredients_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
